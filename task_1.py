@@ -14,7 +14,7 @@ ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
 # Defining file paths and names
 WORKING_DIRECTORY = './'
 
-# Create Task_1_Files directory if it doesn't exist
+# Creating Task_1_Files directory if it doesn't exist
 if not os.path.exists(WORKING_DIRECTORY + 'Task_1_Files'):
     os.makedirs(WORKING_DIRECTORY + 'Task_1_Files')
 
