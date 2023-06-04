@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import os
 
 # Dropbox API credentials
-ACCESS_TOKEN = 'sl.Bfq9L-3Eh_vel1t94eRN8M974r8hdM-jALS0xP2kmUUaybCcePwjCRUT0eV3FijLGosZpQ_m1iA0UTmeTLvpvquGEao-kuoRx-EQUMO7vMLsv0E3H-z6aqudiBIE9vFM4BRAF5lvZujw'
+ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'  # Create one here https://www.dropbox.com/developers/apps
 
 # Defining file paths and names
 WORKING_DIRECTORY = './'
