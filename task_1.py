@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import os
 
 # Dropbox API credentials
-ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
+ACCESS_TOKEN = 'sl.Bfq9L-3Eh_vel1t94eRN8M974r8hdM-jALS0xP2kmUUaybCcePwjCRUT0eV3FijLGosZpQ_m1iA0UTmeTLvpvquGEao-kuoRx-EQUMO7vMLsv0E3H-z6aqudiBIE9vFM4BRAF5lvZujw'
 
 # Defining file paths and names
 WORKING_DIRECTORY = './'
@@ -116,7 +116,7 @@ def anonymize(file_path=LOCAL_DOWNLOAD_FILE_PATH):
         offset = random.randint(min_offset, min_offset * 2)
         offsets.append(offset)
         modified_date = original_date - timedelta(days=offsets[i])
-        row[consent_date_index] = modified_date.strftime('%Y/%m/%d')
+        row[consent_date_index] = modified_date.strftime('%m/%d/%Y')
 
     # Writing the output file
     print(f'Writing {OUTPUT_FILENAME} file.')
