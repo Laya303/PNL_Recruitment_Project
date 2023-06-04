@@ -1,4 +1,4 @@
-# Python code to pull the csv from dropbox using their API
+# Task 1: Download and Upload files using Dropbox API. Anonymize Data of Consent.
 
 # Importing required libraries
 import dropbox
