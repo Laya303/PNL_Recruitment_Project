@@ -6,12 +6,17 @@ from dropbox.exceptions import DropboxException
 import csv
 import random
 from datetime import datetime, timedelta
+import os
 
 # Dropbox API credentials
-ACCESS_TOKEN = 'sl.Bfp9qMq_DQBS_GzQJ8KtK2K7YpdyiGTLbLfZh4TinHThiI2I06ssf0w8Qpe8jIspm8aUeKEdUwZ_sUvNAnb092jmLGPHSq6067Or0aYDvko6ECsxWmTevU0gDTOmNW-gIgrCRbXSm6yW'
+ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
 
 # Defining file paths and names
 WORKING_DIRECTORY = './'
+
+# Create Task_1_Files directory if it doesn't exist
+if not os.path.exists(WORKING_DIRECTORY + 'Task_1_Files'):
+    os.makedirs(WORKING_DIRECTORY + 'Task_1_Files')
 
 DROPBOX_DOWNLOAD_FILE_PATH = '/recruitment_project/enroll_data.csv'
 LOCAL_DOWNLOAD_FILE_PATH = WORKING_DIRECTORY + 'Task_1_Files/enroll_data.csv'
