@@ -47,6 +47,7 @@ In Task 2, the goal is to compute volumes of different brain regions by superimp
 ### Prerequisites
 
 - bash (shell scripting)
+- conda
 - ANTs (Advanced Normalization Tools) for image registration
 - Python 3.x
 - NumPy
