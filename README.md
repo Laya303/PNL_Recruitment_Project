@@ -66,7 +66,7 @@ pip install numpy nibabel tqdm pandas
 conda install -c aramislab ants
 ```
 More about it at [Documentation](https://anaconda.org/aramislab/ants).
-The suggested channel (pnlbwh) was only compatible with linux-64. So make sure to install ANTs through a compatible channel. To do so, please visit [Anaconda](https://anaconda.org/search?q=), search for ANTs and filter out the results by your OS which should give a list of channels that provide ANTs for your OS and documentation that helps you install it.   
+The suggested channel in the coding challenge (pnlbwh) was only compatible with linux-64. So make sure to install ANTs through a compatible channel. To do so, please visit [Anaconda](https://anaconda.org/search?q=), search for ANTs and filter out the results by your OS which should give a list of channels that provide ANTs for your OS and documentation that helps you install it.   
 
 3. Place the necessary files in the appropriate directory:
 - The atlas image file should be named `atlas-T1w.nii.gz` and located in the `Task_2_Files` directory.
