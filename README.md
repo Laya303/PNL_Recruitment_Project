@@ -1,5 +1,5 @@
 # PNL Recruitment Project
-This repository contains code for performing Task 1 and Task 2. Please follow the instructions below to run each task individually.
+This repository contains code for performing Task 1 and Task 2. Bot of these tasks were excetued on osx. Please follow the instructions below to run each task individually.
 
 ## Prerequisites
 
@@ -60,8 +60,13 @@ In Task 2, the goal is to compute volumes of different brain regions by superimp
 ```bash 
 pip install numpy nibabel tqdm pandas
 ```
+2. Install ants through preferred method. The following command has been used for this project. 
+```bash
+conda install -c aramislab ants
+```
+More about it at [Documentation](https://anaconda.org/aramislab/ants).
 
-2. Place the necessary files in the appropriate directory:
+3. Place the necessary files in the appropriate directory:
 - The atlas image file should be named `atlas-T1w.nii.gz` and located in the `Task_2_Files` directory.
 - The given T1 image file should be named `given-T1w.nii.gz` and located in the `Task_2_Files` directory.
 - The image registration script should be named `image_registration_task_2.sh` and located in the root directory.
