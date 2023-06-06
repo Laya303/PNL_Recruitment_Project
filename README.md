@@ -1,5 +1,5 @@
 # PNL Recruitment Project
-This repository contains code for performing Task 1 and Task 2. Bot of these tasks were excetued on osx. Please follow the instructions below to run each task individually.
+This repository contains code for performing Task 1 and Task 2. Bot of these tasks were excuted on osx (MacOS). Please follow the instructions below to run each task individually.
 
 ## Prerequisites
 
