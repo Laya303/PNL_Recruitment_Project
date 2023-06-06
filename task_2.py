@@ -42,16 +42,16 @@ with open('Task_2_Files/FsTutorial_AnatomicalROI_FreeSurferColorLUT.txt', 'r') a
             except ValueError:
                 continue
 
-# Extract the brain region names from the lookup table
+# Extracting the brain region names from the lookup table
 region_names = [label_names.get(label, 'Unknown') for label in volumes.keys()]
 
-# Create a DataFrame to store the results
+# Creating a DataFrame to store the results
 results_df = pd.DataFrame({'label': list(volumes.keys()), 'name': region_names, 'volume': list(volumes.values())})
 
-# Save the results to a CSV file
+# Saving the results to a CSV file
 results_df.to_csv('Task_2_Files/brain_volumes.csv', index=False, sep='\t')
 
-# Print the results
+# Printing the results
 print(results_df)
 
 
